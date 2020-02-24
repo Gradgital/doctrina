@@ -1,0 +1,398 @@
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: url('../fonts/SourceSansPro-Light.eot');
+  src: url('../fonts/SourceSansPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SourceSansPro-Light.woff') format('woff'),
+      url('../fonts/SourceSansPro-Light.ttf') format('truetype'),
+      url('../fonts/SourceSansPro-Light.svg#SourceSansPro-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  src: url('../fonts/SourceSansPro-Regular.eot');
+  src: url('../fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SourceSansPro-Regular.woff') format('woff'),
+      url('../fonts/SourceSansPro-Regular.ttf') format('truetype'),
+      url('../fonts/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  src: url('../fonts/SourceSansPro-Bold.eot');
+  src: url('../fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/SourceSansPro-Bold.woff') format('woff'),
+      url('../fonts/SourceSansPro-Bold.ttf') format('truetype'),
+      url('../fonts/SourceSansPro-Bold.svg#SourceSansPro-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+body{
+    background: lightgray;
+    font-family:  'Source Sans Pro Regular' !important;
+    color: #455565;
+}
+h1.page-title {
+  font-family: 'Source Sans Pro Light';
+  margin-bottom: 30px !important;
+  text-align: center;
+}
+h1.title {
+  margin-top: 6px ;
+  margin-bottom: -5px ;
+  text-align: center;
+}
+
+h2.table-heading {
+  font-size: 30px;
+  font-family: 'Source Sans Pro Light';
+}
+
+.logo{
+    height: 30px;
+    width: 100%;
+    background-color: #36444f;
+}
+.logo-text{
+    font-size: 16px;
+    color: #4CAF50;
+    margin: 0px -4px 0px 0px;
+    padding: 7px 10px;
+
+
+}
+div.topnav{
+   display: block;
+}
+
+.topnav {
+    background-color:#455565 !important;
+    overflow: hidden;
+  }
+  .topnav a {
+    font-family:  'Source Sans Pro Regular';
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* font-size: 16px; */
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: gray;
+  }
+
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+.topnav h1{
+  font-family: 'Source Sans Pro Bold';
+  text-align: right;
+  color: #71bf43;
+  padding: 5px 20px;
+}
+ .home-content{
+   text-align: center;
+   width: 75%;
+   padding: 50px 0 20px;
+   font-size: 36px;
+   color:#455565;
+   font-style: oblique;
+   line-height: 36px !important;
+ }
+
+ /* button[type="submit"]{
+   height: 60px;
+   width: 325px;
+   margin: 10px 0 15px;
+   padding: 0px 25px;
+   background-color: #4CAF50;
+   color: white;
+   text-transform: uppercase;
+   cursor: pointer;
+
+ }
+ button[type="button"]
+ {
+  height: 60px;
+  width: 325px;
+  margin: 10px 0 15px;
+  padding: 0px 25px;
+  background-color: #4CAF50;
+ } */
+ .login-form{
+   text-align: center;
+   font-size: 1.5em;
+
+ }
+
+ .btn-primary {
+  background-color: #71bf43 !important;
+  border: none !important;
+  font-size: 17px !important;
+}
+ .btn-margin {
+  margin-top: 15px;
+  margin-bottom: 15px !important;
+}
+
+ h1.login-logo{
+   margin: 0 auto;
+   display: block;
+   margin: 0px 139px;
+   padding: 20px 0px;
+   color: #455565;
+   /* width: 120px;
+   height: 40px; */
+
+
+ }
+ label {
+  color: #455565;
+  font-family: 'Source Sans Pro Regular';
+  font-size: 16px;
+  font-weight: 300 !important;
+  margin: 0px 0px 5px;
+}
+
+ 
+ .credential-content{
+  background-color: #f4f4f4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 1px solid #e9e9e9;
+  padding: 50px 0 56px 0;
+  margin: auto;
+  /* background: #fff; */
+  width: 400px;
+  height: 530px;
+  border-radius: 5px;
+
+ }
+ .credential-content input[type="email"] , .credential-content input[type="password"]
+ {
+   font-size: 1em;
+   height: 60px;
+   width: 325px;
+   margin: 5px;
+   padding: 10px 20px;
+   border-radius: 5px;
+   border: 1px solid #cccccc;
+ }
+
+ .reviews-content{
+  color:#455565;
+
+ }
+
+ h1.doctrina-reviews-top{
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  /* font-size: 1.87rem; */
+  font-family: 'Source Sans Pro Bold';
+  text-align: right;
+  font-weight: 700;
+  color: #71bf43;
+
+ }
+
+ .reviews-form input[type="text"], select{
+  font-size: 1em;
+  /* height: 60px; */
+  /* width: 325px; */
+  margin: 5px;
+  /* padding: 10px 20px; */
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+ }
+
+
+/* div.reviews-content-split-left{
+  text-align: left;
+  left:0;
+  top:65px;
+  
+
+} */
+
+ div.reviews-content-split-right
+ {
+   display: block;
+   top: 60px;
+   right: 0;
+   height: 100%;
+    width: 50%;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 50px;
+ }
+ h1.centered-reviews-colleagues
+ {
+   text-align: right;
+ }
+ 
+/* table styling */
+
+ h1.table-heading
+ {
+     font: 30px Source Sans Pro Light;
+     margin: 5px 0 0;
+     color: #455565;
+     text-align:  left;
+ }
+ 
+table
+{
+  display: table;
+  border-spacing: 2px;
+}
+table, td, th {
+  border: 1px solid;
+
+}
+
+#content th {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #fff; 
+  /* color: white; */
+   border-bottom: 2px solid #71bf43;
+  font: 23px Source Sans Pro Light;
+  
+} 
+
+/* #content td 
+{
+  border: 1px solid #ddd;
+  padding: 8px;
+} */
+#content td{
+  border: none;
+  border-bottom: 1px solid #71bf43;
+  padding: 8px;
+}
+
+td {
+  grid-auto-rows: auto;
+  display: table-cell;
+  font: 16px !important ;
+}
+
+td.review-total-section {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.review-table {
+  border-collapse: collapse;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff !important;
+}
+
+.review-table tr {
+  background-color: #fff !important;
+}
+
+.review-table input {
+  border: 1px solid #71bf43;
+  padding: 2PX;
+  /* text-align: center; */
+  padding-left: 5px;
+  /* width: 100%; */
+}
+
+td.review-total-value p {
+  border: 2px solid #71bf43;
+  padding: 2px 0px;
+  margin: 0;
+  width: 61px;
+  text-align: center;
+  font-size: 16px;
+  /* color: #71bf43; */
+}
+
+/* rating button */
+/* div.rating-button
+{
+  color: #FFFFFF ;
+  font: 'Source Sans Pro Light';
+  padding:5px 20px 5px 30px ;
+
+} */
+.form-group
+{
+margin-bottom:10px
+}
+
+.form-group .form-control
+{
+min-height:40px; 
+border-color:#ccc;
+padding:0;
+padding-left:35px;
+
+}
+
+.form-group .form-control#First-Name , .form-group .form-control#Last-Name , .form-group .form-control#email
+{
+background:#fff
+ /* url(/_catalogs/masterpage/Britehouse/images/Contact-Us/Field-first-LastName.svg) no-repeat left 8px center */
+ url(../svg/Field-first-LastName.svg) no-repeat left 10px center
+
+}
+.form-group .form-control#position
+{
+background:#fff
+url(../svg/Field-JobTitle.svg) no-repeat left 10px center
+}
+
+.form-group #review-type
+{
+background-image: url(../svg/Field-Comment.svg);
+background-repeat: no-repeat;
+background-position: left 10px center ; /*10px is padding for the left(x-position)*/
+/* background-position-x: left ;
+background-position-y: center; position of the svg*/
+
+
+
+}
+.textArea-color{
+  background-color: #F4F4F4;
+}
+.comments-section textarea {
+  margin-bottom: -6px;
+  border: 1px solid #71bf43;
+}
+
+
+.content-alignment{
+  margin-left: auto;
+  margin-right: auto;
+  float: none !important; 
+}
+
+/* the styling should be overwriten */
+ 
+
+
+
+
+
+
