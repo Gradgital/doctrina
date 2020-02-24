@@ -16,7 +16,7 @@ const returnData = async (e, eObj) => {
 
 
 
-     await fetch("https://apiparse.azurewebsites.net/object", {
+     await fetch("https://parseapi.azurewebsites.net/object", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

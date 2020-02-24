@@ -13,7 +13,7 @@ const submit = (e, eObj) => {
   setObject(object: $obj ,objectName: $objName)
 }`;
 
-  fetch("https://apiparse.azurewebsites.net/object", {
+  fetch("https://parseapi.azurewebsites.net/object", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

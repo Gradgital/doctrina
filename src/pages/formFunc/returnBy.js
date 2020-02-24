@@ -17,7 +17,7 @@ const returnBy = async (e, eObj, eFindBy) => {
   
   
   
-       await fetch("https://apiparse.azurewebsites.net/object", {
+       await fetch("https://parseapi.azurewebsites.net/object", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
